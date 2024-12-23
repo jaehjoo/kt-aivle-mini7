@@ -1,1 +1,0 @@
-# kt-aivle-mini7
