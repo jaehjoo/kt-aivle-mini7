@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Recommended Hospitals</title>
+</head>
+<body>
+<h1>Recommended Hospitals</h1>
+
+<table border="1">
+    <thead>
+    <tr>
+        <th>#</th>
+        <th>Hospital Name</th>
+        <th>Hospital Grade</th>
+        <th>Address</th>
+        <th>Phone</th>
+        <th>Travel Time</th>
+    </tr>
+    </thead>
+    <tbody>
+    <!-- 병원 목록 반복 -->
+    <tr th:each="h, iterStat : ${result.hospitalList}">
+        <td th:text="${iterStat.index + 1}"></td>
+        <td th:text="${h.name}"></td>
+        <td th:text="${h.grade}"></td>
+        <td th:text="${h.address}"></td>
+        <td th:text="${h.phone}"></td>
+        <td th:text="${h.moveTime} + ' 분'"></td>
+    </tr>
+    </tbody>
+</table>
+
+</body>
+</html>
