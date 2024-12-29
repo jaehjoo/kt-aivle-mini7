@@ -34,23 +34,18 @@
 ### 사용자 페이지
 - [X] 응급 신고자 정보 입력 및 DB 반영
 - [X] 추천 병원 목록 전시
-- [ ] 응급실 경로 지도
+- [X] 응급실 경로 지도
 ### 관리자 페이지
-- [ ] Dashboard
-    - [ ] 응급 요청 이력
-    - [ ] 지역별 응급 요청 건수
-    - [ ] 실제 응급실 이동 시간 입력 및 예상 시간과 비교
-### 보안
-- [ ] 방화벽 강화
-- [ ] 로그인 토큰 인증
-- [ ] 게시판 SQL 공격 방어
+- [X] Dashboard
+    - [X] 응급 요청 이력
+    - [X] 지역별 응급 요청 건수
+    - [X] 최다 요청 병원
 ## 팀원 및 역할 구조
 |성명 | 역할 |
 | --- | --- |
-| | DevOps, Backend, AI Modeling |
-| | |
-| | |
-| | |
-| | |
-| | |
-## 
+| gyeongmin | Leader, AI Modeling, CSS Design |
+| OhHyukJun | Chief Frontend, CSS Design |
+| Hyuna030 | Frontend, CSS Design, PPT Design |
+| Syeonnny | Frontend, Chief Designer, PPT Design |
+| kyungmin | Backend, PPT Design |
+| jaehjoo | Cloud DevOps, Backend, Presentation |
